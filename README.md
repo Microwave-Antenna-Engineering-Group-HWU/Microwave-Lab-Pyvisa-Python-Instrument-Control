@@ -20,8 +20,9 @@ Full list of instruments:
 
 ```
 microwave-lab-pyvisa-python-instrument-control/
-├── datasheets/               ← PDF manuals & specs
-├── tektronix_afg1022.py      ← Example: set AFG1022 frequency
+├── Instrument/               ← Example - Tektronix AFG1022
+│   ├── datasheets/           ← PDF manuals & specs
+│   └── control.py            ← Python control files example - afg1022_simple.py
 ├── requirements.txt          ← Python dependencies
 └── README.md                 ← You’re reading it
 ```
