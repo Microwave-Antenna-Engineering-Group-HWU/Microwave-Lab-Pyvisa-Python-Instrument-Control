@@ -1,3 +1,17 @@
+"""
+Author: Shayan Majumder
+Email: shayan.majumder2@gmail.com
+
+This Python script provides a configurable function to initialize and control the Tektronix AFG1022 Arbitrary/Function Generator 
+via USB using the PyVISA library. The function `configure_afg1022()` allows the user to set parameters such as waveform type, 
+frequency, amplitude, DC offset, channel selection, and output state. It includes input validation for waveform-specific limits 
+and returns a dictionary containing the applied settings and instrument error status after execution.
+
+This script is designed for use in lab environments for research and academic testing involving signal generation.
+
+This code is the property of Heriot-Watt University and is intended solely for academic and research purposes.
+"""
+
 import pyvisa
 
 def configure_afg1022(

@@ -1,3 +1,15 @@
+"""
+Author: Shayan Majumder
+Email: shayan.majumder2@gmail.com
+
+This Python script performs an automated frequency sweep using an RF signal generator via the PyVISA interface.
+It connects to the instrument over USB, resets it, and then sweeps the output frequency from 800 MHz to 900 MHz 
+in 1 MHz steps, maintaining a constant power level of -10 dBm. At each step, the RF output is enabled and the current 
+frequency, power, and output status are queried and printed to the console. A dwell time of 0.5 seconds is introduced 
+between frequency steps to ensure signal stability. After completing the sweep, the RF output is turned off.
+
+This code is the property of Heriot-Watt University and is intended for academic and research-related measurements only.
+"""
 import pyvisa
 import time
 

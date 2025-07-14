@@ -1,3 +1,15 @@
+"""
+Author: Shayan Majumder
+Email: shayan.majumder2@gmail.com
+
+This Python script uses the PyVISA library to communicate with the Tektronix AFG1022 Arbitrary/Function Generator over USB.
+It resets the instrument, configures Channel 1 to generate a 1 kHz sine wave with 2 Vpp amplitude and 0 V offset, 
+and enables the output. The script then queries the configured parameters (waveform, frequency, amplitude, and offset)
+and checks the system error status to verify successful configuration.
+
+This code is the property of Heriot-Watt University and is intended strictly for research and academic use.
+"""
+
 import pyvisa
 
 # Initialize the resource manager
