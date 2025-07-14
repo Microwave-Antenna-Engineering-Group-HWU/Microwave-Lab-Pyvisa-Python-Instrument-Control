@@ -1,6 +1,6 @@
 """
 Author: Shayan Majumder
-Email: shayan.majumder2@gmail.com
+Email: sm3054@hw.ac.uk
 
 This Python script uses the PyVISA library to communicate with an RF signal generator over USB.
 It performs basic configuration tasks such as resetting the instrument, setting the output frequency
@@ -23,7 +23,7 @@ inst = rm.open_resource('USB0::0x0957::0x1F01::MY53271615::INSTR')
 inst.write("*RST")
 
 # Set frequency to 850 MHz
-inst.write("FREQ 850MHZ")``
+inst.write("FREQ 850MHZ")
 
 # Set power level to -10 dBm
 inst.write("POW -10DBM")

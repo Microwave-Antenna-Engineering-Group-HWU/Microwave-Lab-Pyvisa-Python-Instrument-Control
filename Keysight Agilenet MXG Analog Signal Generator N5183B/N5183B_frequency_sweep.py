@@ -1,6 +1,6 @@
 """
 Author: Shayan Majumder
-Email: shayan.majumder2@gmail.com
+Email: sm3054@hw.ac.uk
 
 This Python script performs an automated frequency sweep using an RF signal generator via the PyVISA interface.
 It connects to the instrument over USB, resets it, and then sweeps the output frequency from 800 MHz to 900 MHz 
