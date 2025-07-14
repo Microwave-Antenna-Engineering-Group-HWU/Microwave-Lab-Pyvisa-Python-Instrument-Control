@@ -10,6 +10,7 @@ Full list of instruments:
 ## ✅ Supported Equipment (initial)
 
 - **Tektronix AFG1022** – Arbitrary Function Generator (example script included)
+- **Keysight Agilenet N5183B** – MXG Analog Signal Generator (example script included)
 - *(Planned)* Rigol DS1054Z – Oscilloscope  
 - *(Planned)* Keysight 34461A – Digital Multimeter  
 - *(Planned)* Aim‑TTi PL303QMD – Programmable Power Supply  
