@@ -80,6 +80,14 @@ with rm.open_resource(args.resource) as inst:
 
 ---
 
+## 📚 Automation and Analytics
+
+This code can be used to automate lab equipments and give you better insights into data visa visualization.
+
+![Plotting Trace Data from a Spectrum Analyzer](Anritzu MS2038C Vector Network Analyzer and Spectrum Analyzer/example_trace.png)
+
+---
+
 ## 📅 Roadmap & Contributions
 
 - Add drivers/scripts for other lab instruments
