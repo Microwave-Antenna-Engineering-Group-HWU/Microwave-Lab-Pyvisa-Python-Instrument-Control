@@ -1,1 +1,3 @@
 pyvisa>=1.12.0
+matplotlib>=3.9.2
+numpy>=2.1.1

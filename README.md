@@ -11,6 +11,7 @@ Full list of instruments:
 
 - **Tektronix AFG1022** – Arbitrary Function Generator (example script included)
 - **Keysight Agilenet N5183B** – MXG Analog Signal Generator (example script included)
+- **Anritzu MS2038C** – Vector Network Analyzer and Spectrum Analyzer (example script included for Spectrum Analyzer)
 - *(Planned)* Rigol DS1054Z – Oscilloscope  
 - *(Planned)* Keysight 34461A – Digital Multimeter  
 - *(Planned)* Aim‑TTi PL303QMD – Programmable Power Supply  
@@ -45,7 +46,7 @@ source .venv/bin/activate         # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
 # 4. Run the example
-python tektronix_afg1022.py --frequency 1e3
+python afg1022_simple_set_function_frequency_voltage_offset.py
 ```
 
 ---
