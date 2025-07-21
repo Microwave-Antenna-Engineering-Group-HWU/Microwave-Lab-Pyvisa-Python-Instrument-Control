@@ -84,7 +84,7 @@ with rm.open_resource(args.resource) as inst:
 
 This code can be used to automate lab equipments and give you better insights into data visa visualization.
 
-![Plotting Trace Data from a Spectrum Analyzer](Anritsu MS2038C Vector Network Analyzer and Spectrum Analyzer/example_trace.png)
+![Plotting Trace Data from a Spectrum Analyzer](Anritzu%20MS2038C%20Vector%20Network%20Analyzer%20and%20Spectrum%20Analyzer/example_trace.png)
 
 ---
 
