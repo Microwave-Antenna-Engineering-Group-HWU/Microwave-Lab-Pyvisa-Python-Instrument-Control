@@ -82,7 +82,7 @@ with rm.open_resource(args.resource) as inst:
 
 ## 📚 Automation and Analytics
 
-This code can be used to automate lab equipments and give you better insights into data visa visualization.
+This code can be used to automate lab equipments and give you better insights into data visualization.
 
 ![Plotting Trace Data from a Spectrum Analyzer](Anritzu%20MS2038C%20Vector%20Network%20Analyzer%20and%20Spectrum%20Analyzer/example_trace.png)
 
